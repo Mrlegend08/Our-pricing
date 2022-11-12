@@ -1,0 +1,158 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.site-section {
+  background-color: antiquewhite;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.conatiner {
+  width: 538px;
+}
+
+.top-content {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
+  width: 100%;
+  background-color: #eb5a3d;
+  border-radius: 30px;
+  margin-bottom: 30px;
+}
+
+.my-balance {
+  font-size: 20px;
+  color: #fff;
+  line-height: 28px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.money {
+  font-size: 32px;
+  color: #fff;
+  line-height: 28px;
+  font-weight: 700;
+  margin: 0;
+}
+.top-content-end {
+  position: relative;
+}
+.circle-border {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border: 3px solid #fff;
+  right: 41px;
+}
+
+.circle-background {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background-color: #000;
+  margin-right: 0px;
+}
+
+.bottom-content {
+  width: 100%;
+  padding: 40px 25px 50px 45px;
+  border-radius: 30px;
+  background-color: #fff;
+}
+.bottom-content-title {
+  font-size: 35px;
+  line-height: 28px;
+  font-weight: 700;
+  margin-bottom: 50px;
+}
+.bottom-content-list {
+  display: flex;
+  align-items: flex-end;
+  gap: 15px;
+  width: 100%;
+  list-style: none;
+  margin-bottom: 40px;
+}
+.bottom-content-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.diagramma {
+  width: 50px;
+  height: 60px;
+  background-color: #eb5a3d;
+  margin-bottom: 10px;
+  border-radius: 7px;
+}
+
+.bottom-content-item:nth-child(2) > .diagramma {
+  height: 110px;
+}
+
+.bottom-content-item:nth-child(3) > .diagramma {
+  height: 170px;
+  background-color: lightskyblue;
+}
+.bottom-content-item:nth-child(4) > .diagramma {
+  height: 100px;
+}
+.bottom-content-item:nth-child(5) > .diagramma {
+  height: 80px;
+}
+.bottom-content-item:nth-child(6) > .diagramma {
+  height: 140px;
+}
+.bottom-content-item:nth-child(7) > .diagramma {
+  height: 90px;
+}
+.week {
+  opacity: 80%;
+}
+.line {
+  height: 1px;
+  background-color: black;
+  opacity: 50%;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.tot {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.total {
+  font-size: 16px;
+  color: #808080;
+  line-height: 28px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+.total-number {
+  font-size: 40px;
+  font-weight: 900px;
+  color: #000;
+}
+.total-box-end {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.static {
+  margin-top: 25px;
+  font-weight: 800;
+  margin-bottom: 10px;
+}
+.static-con {
+  opacity: 80%;
+}
